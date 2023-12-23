@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="app">
+  <h1 id="h1">Awesome Books</h1>
+  
+  <!-- Display the list of books -->
+  <ul id="books-list"></ul>
+
+  <!-- Add Book Form -->
+  <form id="add-book-form">
+    <label for="title">Enter Title:</label>
+    <input type="text" id="title" placeholder="Book Title" required>
+
+    <label for="author">Enter Author:</label>
+    <input type="text" id="author" placeholder="Author Name" required>
+
+    <label for="isbn">Enter ISBN:</label>
+    <input type="text" id="isbn" placeholder="ISBN Number" required>
+
+    <button id="btn" type="submit">Add to Collection</button>
+  </form>
+
+  <!-- Remove Book Form -->
+  <form id="remove-book-form">
+    <label for="remove-isbn">Remove Book (Enter ISBN):</label>
+    <input type="text" id="remove-isbn" placeholder="ISBN Number" required>
+
+    <button id="rbtn" type="submit">Remove Book</button>
+  </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

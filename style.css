@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 5% auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#books-list {
+    list-style: none;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+#add-book-form,
+#remove-book-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+input[type="text"] {
+    width: calc(100% - 18px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#btn {
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+#rbtn {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
